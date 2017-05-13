@@ -13,6 +13,7 @@
 		E59D78B61EC7395C00A077B6 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E59D78B41EC7395C00A077B6 /* DoIt.xcdatamodeld */; };
 		E59D78B81EC7395C00A077B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E59D78B71EC7395C00A077B6 /* Assets.xcassets */; };
 		E59D78BB1EC7395C00A077B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59D78B91EC7395C00A077B6 /* LaunchScreen.storyboard */; };
+		E59D78C31EC73CE800A077B6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59D78C21EC73CE800A077B6 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E59D78B71EC7395C00A077B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E59D78BA1EC7395C00A077B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E59D78BC1EC7395C00A077B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E59D78C21EC73CE800A077B6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				E59D78AD1EC7395C00A077B6 /* AppDelegate.swift */,
 				E59D78AF1EC7395C00A077B6 /* ViewController.swift */,
+				E59D78C21EC73CE800A077B6 /* Task.swift */,
 				E59D78B11EC7395C00A077B6 /* Main.storyboard */,
 				E59D78B71EC7395C00A077B6 /* Assets.xcassets */,
 				E59D78B91EC7395C00A077B6 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59D78C31EC73CE800A077B6 /* Task.swift in Sources */,
 				E59D78B61EC7395C00A077B6 /* DoIt.xcdatamodeld in Sources */,
 				E59D78B01EC7395C00A077B6 /* ViewController.swift in Sources */,
 				E59D78AE1EC7395C00A077B6 /* AppDelegate.swift in Sources */,
